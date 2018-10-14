@@ -1,0 +1,10 @@
+@import url("../css/Layout/normalize.css");
+@import url("../css/Layout/base.css");
+
+@import url("../css/Blocks/header.css");
+@import url("../css/Blocks/navigation.css");
+@import url("../css/Blocks/main-page.css");
+@import url("../css/Blocks/comments-page.css");
+@import url("../css/Blocks/services-page.css");
+@import url("../css/Blocks/footer.css"); 
+@import url("../css/Blocks/intro-page.css"); 

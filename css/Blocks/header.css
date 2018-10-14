@@ -1,0 +1,105 @@
+
+header {
+    background-color: #131415;
+}
+
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+}
+
+.header__right {
+    text-align: right;
+}
+
+.header__logo, .header__info {
+    display: inline-block;
+}
+
+.header__logo {
+    font-family: 'GoraFree-Regular';
+    color: #f89513;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    letter-spacing: 1.7px;
+}
+
+.header__info {
+    padding-top: 20px;
+    font-style: normal;
+    width: 50%;
+}
+.header__info-tel {
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.header__info-worktime {
+    color: #f89513;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    margin-top: -5px
+} 
+
+.header__dropdown:before {
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    right: 0;
+    top:-19px;
+    position: absolute;
+}
+
+.header__dropdown {
+    z-index: 10;
+    width: 165px;
+    height: 70px; 
+    background-color: #f3f3f3;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    margin-top:20px;
+    margin-left: 115px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.header__dropdown--time {
+    padding-top: 9px;
+    color: #f89513;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header__dropdown--siesta {
+    font-size: 14px;
+    color: #221f1f;
+    font-weight: lighter;
+}
+
+.header__dropdown--triangle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    top:-10px;
+    left:138px;
+    transform: rotate(-135deg);
+}
+
+.header__info-worktime:hover .header__dropdown {
+     opacity: 1;
+}
+
+.header__info-worktime:hover {
+    text-decoration: underline;
+}

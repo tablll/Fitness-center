@@ -1,0 +1,67 @@
+.services--title {
+    margin: 28px 0 56px -1px;
+}
+
+.services {
+    line-height: 1.7em;
+    margin-bottom: 23px;
+}
+
+.services__row  {
+    padding-bottom: 44px;
+    display: block;
+}
+
+.services__section {
+    float: left;
+    width: 250px;
+}
+
+.services__section--middle {
+    margin: 0px 50px 0px 60px;
+}
+
+.services__section--photo {
+    width: 250px;
+    height: 153px;
+}
+
+.services__section--title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-bottom: -2px;
+}
+
+.services__section--text {
+    font-size: 14px;
+    /* padding-bottom: 45px; */
+    width: 259px;
+    margin-top: 5px;
+    line-height: 1.5em;
+    margin-left: 1px;
+}    
+
+.services__photo--fitness {
+    background: url('../../img/jpg/fitness-img.jpg') 0 0 no-repeat;
+}
+
+.services__photo--diet {
+    background: url('../../img/jpg/diet-img.jpg') 0 0 no-repeat;
+}
+
+.services__photo--yoga {
+    background: url('../../img/jpg/yoga-img.jpg') 0 0 no-repeat;
+}
+
+.services__photo--loops {
+    background: url('../../img/jpg/loops.jpg') 0 0 no-repeat;
+}
+
+.services__photo--crossfit {
+    background: url('../../img/jpg/crossfit-img.jpg') 0 0 no-repeat;
+}
+
+.services__photo--pool {
+    background: url('../../img/jpg/pool-img.jpg') 0 0 no-repeat;
+}
